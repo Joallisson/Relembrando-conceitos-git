@@ -64,20 +64,8 @@ Relembrando alguns comandos git no terminal
     git checkout -b sistema-de-login
     
 - PARA RESTAURAR ARQUIVOS DELETADOS:
-    git restore "dinome do arquivo.txt"
-    
-    
+    git restore "digite nome do arquivo.txt"
 
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
+- PARA NÃO VERSIONAR ARQUIVOS QUE SENSIVEIS COMO SENHAS:
+    touch .gitignore
+  
