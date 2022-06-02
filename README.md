@@ -63,7 +63,18 @@ Relembrando alguns comandos git no terminal
 - CRIAR UMA BRANCH E IR DIRETO PRA ELA: (nesse é exemplo estou criando uma branch chamda <sistema-de-login>  entrando nela)
     git checkout -b sistema-de-login
     
-- 
+- PARA RESTAURAR ARQUIVOS DELETADOS:
+    git restore "dinome do arquivo.txt"
+    
+    
+
+    
+    
+    
+
+    
+    
+    
     
     
     
