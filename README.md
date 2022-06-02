@@ -53,9 +53,17 @@ Relembrando alguns comandos git no terminal
 - SEMPRE QUE MUDAR DE BRANCH E EU FIZER UM COMMIT E UM PUSH TENHO QUE EXECUTAR: (no código abaixo <staging> é o nome da nova branch)
     git push --set-upstream origin staging
 
-
+- FAZENDO ATUALIZAÇÃO DOS ARQUIVOS DO GITHUB PARA O REPOSITÓRIO LOCAL GIT:
+    git pull
     
+- UNIR DUAS BRANCH (FAZER UM MERGE), NO CASO VOU ENTRAR NA BRANCH MASTER E PUXAR AS ATUALIZAÇÕES QUE FORAM FEITAS NA BRANCH STAGING: (antes de fazer o   merge, é necessário fazer o git pull na branch master para ter certeza que é o código mais atualizado)
+    git checkout  master
+    git merge staging
     
+- CRIAR UMA BRANCH E IR DIRETO PRA ELA: (nesse é exemplo estou criando uma branch chamda <sistema-de-login>  entrando nela)
+    git checkout -b sistema-de-login
+    
+- 
     
     
     
