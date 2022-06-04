@@ -1,7 +1,7 @@
 # Relembrando-conceitos-git
 Relembrando alguns comandos git no terminal
 
-- COMO INICIAR EM UMA PASTA, O VERSIONAMENTO GIT:
+- COMO INICIAR EM UMA PASTA, O VERSIONAMENTO GIT: <br />
     git init 
     
 - VER O STATUS DO VERIONAMENTO:
