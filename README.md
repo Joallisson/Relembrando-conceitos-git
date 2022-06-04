@@ -10,7 +10,7 @@ Relembrando alguns comandos git no terminal
 - COMO ADICIONAR SUA CONTA DO GITHUB NO REPOSITŔIO LOCAL DO GIT: (provavelmente no último passo vai pedir para colocar usuário e senha)
     git config --global user.email "emailexemplo@exemplo.com"
     git config --global user.name "exemplo nome"
-    git remote add origin <coloque a url do seu projeto github aqui>
+    git remote add origin < coloque a url do seu projeto github aqui >
 
 - COMO ADICIONAR TODOS OS ARQUIVOS E PASTAS PARA SEREM VERSIONADOS: (É necessário que o repositório já esteja criado dentro do github)
     git add .
@@ -36,7 +36,7 @@ Relembrando alguns comandos git no terminal
     
 - PARA REVERTER O COMMIT ATUAL E VOLTAR PARA OUTRO: (quando executar git reflog a saida dever ser parecida com esse exemplo: < 9e3b52d HEAD@{2}: commit (initial): commit inicial > e o ID desse commit é o  9e3b52d)
     git reflog
-    git reset --hard <ID do commit>
+    git reset --hard < ID do commit >
     
 - EXIBIR AS BRANCH LOCAIS:
     git branch
@@ -50,7 +50,7 @@ Relembrando alguns comandos git no terminal
 - PARA MUDAR DE BRANCH:
     git checkout staging
     
-- SEMPRE QUE MUDAR DE BRANCH E EU FIZER UM COMMIT E UM PUSH TENHO QUE EXECUTAR: (no código abaixo <staging> é o nome da nova branch)
+- SEMPRE QUE MUDAR DE BRANCH E EU FIZER UM COMMIT E UM PUSH TENHO QUE EXECUTAR: (no código abaixo < staging > é o nome da nova branch)
     git push --set-upstream origin staging
 
 - FAZENDO ATUALIZAÇÃO DOS ARQUIVOS DO GITHUB PARA O REPOSITÓRIO LOCAL GIT:
@@ -60,7 +60,7 @@ Relembrando alguns comandos git no terminal
     git checkout  master
     git merge staging
     
-- CRIAR UMA BRANCH E IR DIRETO PRA ELA: (nesse é exemplo estou criando uma branch chamda <sistema-de-login>  entrando nela)
+- CRIAR UMA BRANCH E IR DIRETO PRA ELA: (nesse é exemplo estou criando uma branch chamda < sistema-de-login >  entrando nela)
     git checkout -b sistema-de-login
     
 - PARA RESTAURAR ARQUIVOS DELETADOS:
