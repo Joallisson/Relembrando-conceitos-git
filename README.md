@@ -8,9 +8,9 @@ Relembrando alguns comandos git no terminal
     git status
 
 - COMO ADICIONAR SUA CONTA DO GITHUB NO REPOSITŔIO LOCAL DO GIT: (provavelmente no último passo vai pedir para colocar usuário e senha) <br />
-    git config --global user.email "emailexemplo@exemplo.com"
-    git config --global user.name "exemplo nome"
-    git remote add origin < coloque a url do seu projeto github aqui >
+    git config --global user.email "emailexemplo@exemplo.com" <br />
+    git config --global user.name "exemplo nome" <br />
+    git remote add origin < coloque a url do seu projeto github aqui > <br />
 
 - COMO ADICIONAR TODOS OS ARQUIVOS E PASTAS PARA SEREM VERSIONADOS: (É necessário que o repositório já esteja criado dentro do github) <br />
     git add .
@@ -34,7 +34,7 @@ Relembrando alguns comandos git no terminal
 - EXIBIR HISTÓRICO DE COMMITS: <br />
     git log
     
-- PARA REVERTER O COMMIT ATUAL E VOLTAR PARA OUTRO: (quando executar git reflog a saida dever ser parecida com esse exemplo: < 9e3b52d HEAD@{2}: commit (initial): commit inicial > e o ID desse commit é o  9e3b52d) <br />
+- PARA REVERTER O COMMIT ATUAL E VOLTAR PARA OUTRO: (quando executar git reflog a saida dever ser parecida com esse exemplo: < 9e3b52d HEAD@{2}: commit (initial): commit inicial > e o ID desse commit é o  9e3b52d) > <br />
     git reflog
     git reset --hard < ID do commit >
     
@@ -57,7 +57,7 @@ Relembrando alguns comandos git no terminal
     git pull
     
 - UNIR DUAS BRANCH (FAZER UM MERGE), NO CASO VOU ENTRAR NA BRANCH MASTER E PUXAR AS ATUALIZAÇÕES QUE FORAM FEITAS NA BRANCH STAGING: (antes de fazer o   merge, é necessário fazer o git pull na branch master para ter certeza que é o código mais atualizado) <br />
-    git checkout  master
+    git checkout  master <br />
     git merge staging
     
 - CRIAR UMA BRANCH E IR DIRETO PRA ELA: (nesse é exemplo estou criando uma branch chamda < sistema-de-login >  entrando nela) <br />
