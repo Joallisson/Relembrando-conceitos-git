@@ -15,8 +15,8 @@ Relembrando alguns comandos git no terminal
 - COMO ADICIONAR TODOS OS ARQUIVOS E PASTAS PARA SEREM VERSIONADOS: (É necessário que o repositório já esteja criado dentro do github)
     git add .
 
-- COMO CONECTAR MEU PROJETO AO MEU REPOSITÓRIO JÁ CRIADO NO GITHUB:
-    git remote
+- COMO CONECTAR MEU PROJETO LOCAL AO MEU REPOSITÓRIO JÁ CRIADO NO GITHUB:
+    git remote add origin <url do meu repositorio no github>
 
 - CRIAR UM COMMIT: 
     git add .
