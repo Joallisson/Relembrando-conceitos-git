@@ -35,7 +35,7 @@ Relembrando alguns comandos git no terminal
     git log
     
 - PARA REVERTER O COMMIT ATUAL E VOLTAR PARA OUTRO: (quando executar git reflog a saida dever ser parecida com esse exemplo: < 9e3b52d HEAD@{2}: commit (initial): commit inicial > e o ID desse commit é o  9e3b52d) > <br />
-    git reflog
+    git reflog <br />
     git reset --hard < ID do commit >
     
 - EXIBIR AS BRANCH LOCAIS: <br />
