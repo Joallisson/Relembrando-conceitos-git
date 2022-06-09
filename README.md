@@ -23,7 +23,7 @@ Relembrando alguns comandos git no terminal
     git commit -m "escreva seu commit aqui"
   
 - DAR O PRIMEIRO PUSH: <br />
-    git push --set-upstream origin master
+    git push --set-upstream origin main
 
 - DAR UM PUSH: <br />
     git push
