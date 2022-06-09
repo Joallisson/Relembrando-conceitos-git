@@ -68,4 +68,10 @@ Relembrando alguns comandos git no terminal
 
 - PARA NÃO VERSIONAR ARQUIVOS QUE SENSIVEIS COMO SENHAS: <br />
     touch .gitignore
+
+- EXCLUIR UMA BRANCH NO LOCAL <br />
+    git branch -d < nomeDoBranchLocal >
+
+- EXCLUIR UMA BRANCH NO REMOTO <br />
+    git push origin --delete < nomeDoBranchRemoto >
   
