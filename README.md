@@ -16,7 +16,7 @@ Relembrando alguns comandos git no terminal
     git add .
 
 - COMO CONECTAR MEU PROJETO LOCAL AO MEU REPOSITÓRIO JÁ CRIADO NO GITHUB: <br />
-    git remote add origin < url do meu repositorio no github >
+    git remote add origin < url do meu repositorio no github > <br />
 
 - CRIAR UM COMMIT: <br />
     git add . <br />
