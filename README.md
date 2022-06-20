@@ -69,6 +69,12 @@ Relembrando alguns comandos git no terminal
 - PARA NÃO VERSIONAR ARQUIVOS QUE SENSIVEIS COMO SENHAS: <br />
     touch .gitignore
 
+- RENOMEAR UMA BRANCH LOCAL NO GIT: <br />
+    git branch -m < novonome >
+    
+- ENVIAR NOME NOVO DA BRANCH PRO GITHUB: <br />
+    git push origin -u < novonome >
+
 - EXCLUIR UMA BRANCH NO LOCAL <br />
     git branch -d < nomeDoBranchLocal >
 
