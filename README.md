@@ -31,7 +31,7 @@ Relembrando alguns comandos git no terminal
 - EXIBIR HISTÓRICO DE COMMITS MAIS DETALHADO: <br />
     git reflog
     
-- EXIBIR HISTÓRICO DE COMMITS: <br />
+- EXIBIR HISTÓRICO DE COMMITS: <br /> 
     git log
     
 - PARA REVERTER O COMMIT ATUAL E VOLTAR PARA OUTRO: (quando executar git reflog a saida dever ser parecida com esse exemplo: < 9e3b52d HEAD@{2}: commit (initial): commit inicial > e o ID desse commit é o  9e3b52d) > <br />
