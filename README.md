@@ -28,6 +28,9 @@ Relembrando alguns comandos git no terminal
 - DAR UM PUSH: <br />
     git push
 
+- DESFFAZER ULTIMO MERGE: <br />
+    git reset --hard HEAD~1
+
 - EXIBIR HISTÓRICO DE COMMITS MAIS DETALHADO: <br />
     git reflog
     
