@@ -78,6 +78,9 @@ Relembrando alguns comandos git no terminal
 - ENVIAR NOME NOVO DA BRANCH PRO GITHUB: <br />
     git push origin -u < novonome >
 
+- DESFAZER MERGE: <br />
+    git reset --hard HEAD~1
+
 - EXCLUIR UMA BRANCH NO LOCAL <br />
     git branch -d < nomeDoBranchLocal >
 
