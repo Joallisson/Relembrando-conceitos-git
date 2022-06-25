@@ -75,6 +75,9 @@ Relembrando alguns comandos git no terminal
 - RENOMEAR UMA BRANCH LOCAL NO GIT: <br />
     git branch -m < novonome >
     
+- RESOLVER PROBLEMA "fatal: refusing to merge unrelated histories": <br />
+    git pull origin < nomeDaBranchLocal > --allow-unrelated-histories
+    
 - ENVIAR NOME NOVO DA BRANCH PRO GITHUB: <br />
     git push origin -u < novonome >
 
