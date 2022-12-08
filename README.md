@@ -18,6 +18,9 @@ Relembrando alguns comandos git no terminal
 - COMO CONECTAR MEU PROJETO LOCAL AO MEU REPOSITÓRIO JÁ CRIADO NO GITHUB: <br />
     git remote add origin < url do meu repositorio no github > <br />
 
+- COMO BAIXAR UMA BRANCH REMOTO PARA O REPOSITORIO LOCAL: <br />
+    git checkout -b <nome-do-seu-branch-local> origin/<nome-do-branch-remoto>
+
 - CRIAR UM COMMIT: <br />
     git add . <br />
     git commit -m "escreva seu commit aqui"
