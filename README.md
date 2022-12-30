@@ -95,3 +95,6 @@ Relembrando alguns comandos git no terminal
     
 - APAGAR O "REMOTE ORIGIN" DA BRANCH LOCAL
     git remote remove origin
+    
+- VISUALIZAR OS LINK DO REPOSITÓRIO REMOTO
+    git remote -v
