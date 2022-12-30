@@ -92,4 +92,6 @@ Relembrando alguns comandos git no terminal
 
 - EXCLUIR UMA BRANCH NO REMOTO <br />
     git push origin --delete < nomeDoBranchRemoto >
-  
+    
+- APAGAR O "REMOTE ORIGIN" DA BRANCH LOCAL
+    git remote remove origin
