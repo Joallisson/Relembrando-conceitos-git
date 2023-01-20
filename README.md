@@ -98,3 +98,8 @@ Relembrando alguns comandos git no terminal
     
 - VISUALIZAR O LINK DO REPOSITÓRIO REMOTO <br />
     git remote -v
+    
+- DEPOIS DE APAGAR UMA BRANCH REMOTO E EDITAR O NOME DA BRANCH LOCAL <br />
+    git branch --unset-upstream
+    git push
+   
