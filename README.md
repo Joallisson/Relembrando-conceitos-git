@@ -100,6 +100,6 @@ Relembrando alguns comandos git no terminal
     git remote -v
     
 - DEPOIS DE APAGAR UMA BRANCH REMOTO E EDITAR O NOME DA BRANCH LOCAL <br />
-    git branch --unset-upstream
+    git branch --unset-upstream <br />
     git push
    
