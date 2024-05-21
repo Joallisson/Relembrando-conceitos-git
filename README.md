@@ -102,5 +102,9 @@ Relembrando alguns comandos git no terminal
 - DEPOIS DE APAGAR UMA BRANCH REMOTO E EDITAR O NOME DA BRANCH LOCAL <br />
     git branch --unset-upstream <br />
     git push
-    
+
+- REMOVENDO CACHE DO GIT
+    git rm -r --cached .
+    git add .
+    git commit -m "Limpando cache do git"
    
