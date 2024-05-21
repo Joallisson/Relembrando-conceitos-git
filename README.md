@@ -104,7 +104,7 @@ Relembrando alguns comandos git no terminal
     git push
 
 - REMOVENDO CACHE DO GIT
-    git rm -r --cached .
-    git add .
-    git commit -m "Limpando cache do git"
+    git rm -r --cached .  <br />
+    git add .  <br />
+    git commit -m "Limpando cache do git"  <br />
    
