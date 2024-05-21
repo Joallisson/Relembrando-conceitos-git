@@ -103,7 +103,7 @@ Relembrando alguns comandos git no terminal
     git branch --unset-upstream <br />
     git push
 
-- REMOVENDO CACHE DO GIT
+- REMOVENDO CACHE DO GIT  <br />
     git rm -r --cached .  <br />
     git add .  <br />
     git commit -m "Limpando cache do git"  <br />
