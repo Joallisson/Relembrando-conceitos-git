@@ -108,7 +108,7 @@ Relembrando alguns comandos git no terminal
     git add .  <br />
     git commit -m "Limpando cache do git"  <br />
 
-- ENVINADO REPOSITÓRIO LOCAL PARA O GITHUB
+- ENVINADO REPOSITÓRIO LOCAL PARA O GITHUB <br />
     git remote add origin https://github.com/Joallisson/MEU-REPOSITORIO.git <br />
     git branch -M main <br />
     git push -u origin main <br />
