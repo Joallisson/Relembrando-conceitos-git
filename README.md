@@ -112,4 +112,7 @@ Relembrando alguns comandos git no terminal
     git remote add origin https://github.com/Joallisson/MEU-REPOSITORIO.git <br />
     git branch -M main <br />
     git push -u origin main <br />
+
+- REMOVER ARQUIVOS NÃO RASTREADOS <br />
+    git clean -fd
    
