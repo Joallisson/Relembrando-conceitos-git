@@ -2,15 +2,15 @@
 Relembrando alguns comandos git no terminal
 
 # RESUMO – APENAS COMANDOS
-    - git checkout develop <br />
-    - git pull origin develop --rebase <br />
-    - git checkout feature/VOK-001 <br />
-    - git rebase develop <br />
-    - # (resolver conflitos se houver) <br />
-    - git add . <br />
-    - git commit <br />
-    - git rebase --continue <br />
-    - git push origin feature/VOK-001 --force-with-lease <br />
+    - git checkout develop 
+    - git pull origin develop --rebase 
+    - git checkout feature/VOK-001 
+    - git rebase develop 
+    - # (resolver conflitos se houver) 
+    - git add . 
+    - git commit 
+    - git rebase --continue 
+    - git push origin feature/VOK-001 --force-with-lease 
 
 - COMO INICIAR EM UMA PASTA, O VERSIONAMENTO GIT: <br />
     git init 
