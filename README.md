@@ -120,4 +120,15 @@ Relembrando alguns comandos git no terminal
    git pull --rebase
    (caso haja confiltos, dê um: git add .)
    git rebase --continue
-   
+
+- SALVAR ARQUIVOS QUE VOCÊ AINDA NÃO QUER COMMITAR <br />
+    git stash
+
+- LISTAR TODAS AS ALTERAÇÕES SALVAS NO STASH <br />
+    git stash list
+
+- VOLTAR COM AS ALTERAÇÕES SALVAS NO STASH <br />
+    git stash pop
+
+- REMOVER ARQUIVOS DEPOIS DE FAZER O "git add ." QUE AINDA NÃO FORAM COMMITADOS, SEM PERDER SUAS ALTERAÇÕES <br />
+    git restore --staged
