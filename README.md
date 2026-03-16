@@ -1,16 +1,16 @@
 # Relembrando-conceitos-git 
 Relembrando alguns comandos git no terminal
 
-RESUMO – APENAS COMANDOS
-    git checkout develop <br />
-    git pull origin develop --rebase <br />
-    git checkout feature/VOK-001 <br />
-    git rebase develop <br />
-    # (resolver conflitos se houver) <br />
-    git add . <br />
-    git commit <br />
-    git rebase --continue <br />
-    git push origin feature/VOK-001 --force-with-lease <br />
+# RESUMO – APENAS COMANDOS
+    - git checkout develop <br />
+    - git pull origin develop --rebase <br />
+    - git checkout feature/VOK-001 <br />
+    - git rebase develop <br />
+    - # (resolver conflitos se houver) <br />
+    - git add . <br />
+    - git commit <br />
+    - git rebase --continue <br />
+    - git push origin feature/VOK-001 --force-with-lease <br />
 
 - COMO INICIAR EM UMA PASTA, O VERSIONAMENTO GIT: <br />
     git init 
