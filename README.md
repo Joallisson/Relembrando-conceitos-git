@@ -116,7 +116,7 @@ Relembrando alguns comandos git no terminal
 - REMOVER ARQUIVOS NÃO RASTREADOS <br />
     git clean -fd
 
-- USAR O git rebase <br />
+- USAR O git rebase NO CASO DE VÁRIAS PESSOAS ESTAREM TRABALHANDO NA MESMA BRANCH <br />
    git pull --rebase
    (caso haja confiltos, dê um: git add .)
    git rebase --continue
