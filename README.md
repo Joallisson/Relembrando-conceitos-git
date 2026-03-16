@@ -115,4 +115,9 @@ Relembrando alguns comandos git no terminal
 
 - REMOVER ARQUIVOS NÃO RASTREADOS <br />
     git clean -fd
+
+- USAR O git rebase <br />
+   git pull --rebase
+   (caso haja confiltos, dê um: git add .)
+   git rebase --continue
    
